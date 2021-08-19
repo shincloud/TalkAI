@@ -9,7 +9,7 @@ run_with_ngrok(app)
 def hello():
     apikey = "" #自分のAPIキーを設定する
     client = pya3rt.TalkClient(apikey)
-    return "ようこそ"
+    return "ようこそ TalkAIへ"
 
 def talk_ai():
   words = input("あなた >")
